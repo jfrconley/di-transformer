@@ -1,4 +1,4 @@
-const {di} = require("@wessberg/di-compiler");
+const {di} = require("@jfconley/di-compiler");
 
 const transformer = (program) => di({ program })
 
