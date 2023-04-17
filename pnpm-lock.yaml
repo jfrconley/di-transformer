@@ -1,22 +1,18 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@wessberg/di-compiler': ^3.2.0
+  '@jfconley/di-compiler': ^3.2.0
   typescript: ^4.9.5
 
 devDependencies:
-  '@wessberg/di-compiler': 3.2.0_typescript@4.9.5
+  '@jfconley/di-compiler': 3.2.0_typescript@4.9.5
   typescript: 4.9.5
 
 packages:
 
-  /@types/node/17.0.45:
-    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
-    dev: true
-
-  /@wessberg/di-compiler/3.2.0_typescript@4.9.5:
-    resolution: {integrity: sha512-7UxCZTald9uFLF1iLsBZYOp+HFDWoFMbo3iHDubuLVGHHZgGSWnbJ/FPN7FbB6+DOI/Hmm4f9z+FINQ1agAlpQ==}
-    engines: {node: '>=14.19.0'}
+  /@jfconley/di-compiler/3.2.0_typescript@4.9.5:
+    resolution: {integrity: sha512-5PbQobj3qieA9q9cLXJKbyg8mHRd5OmC5zgGCoYXTIZARn/hEoth159WR40ySvDNWVQURPFsi/5eY2eMqKkyQQ==}
+    engines: {node: '>=16.15.1'}
     peerDependencies:
       typescript: '>=3.x || >= 4.x'
     dependencies:
@@ -29,6 +25,10 @@ packages:
       typescript: 4.9.5
     transitivePeerDependencies:
       - jsdom
+    dev: true
+
+  /@types/node/17.0.45:
+    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
     dev: true
 
   /ansi-colors/4.1.3:
