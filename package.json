@@ -1,8 +1,12 @@
 {
   "name": "@jfconley/di-transformer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Typescript transformer wrapper for @wessberg/di-compiler",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./preserve": "./preserve.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
