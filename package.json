@@ -1,6 +1,6 @@
 {
   "name": "@jfconley/di-transformer",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Typescript transformer wrapper for @wessberg/di-compiler",
   "main": "index.js",
   "exports": {
@@ -12,6 +12,7 @@
   },
   "files": [
     "index.js",
+    "preserve.js",
     "package.json"
   ],
   "keywords": [],
