@@ -3,7 +3,6 @@ const {di} = require("@jfconley/di-compiler");
 
 const transfomerCache = new Map();
 const transformer = (after, program) => {
-    console.log(after)
     if (!transfomerCache.has(program)) {
         transfomerCache.set(program, di({program}));
     }
